@@ -49,17 +49,8 @@
         <section class="banner">
             <div class="swiper-container" id="banner">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="img/index/carousel_01.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/index/carousel_02.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/index/carousel_03.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="img/index/carousel_04.jpg" alt="">
+                    <div class="swiper-slide" v-for=" data in test" >
+                        <img :src="'img/' + data" alt="">
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -69,7 +60,6 @@
         <section class="section2">
             <div class="container text-center">
                 <h2 class="text-center">NEWS</h2>
-
                 <div class="swiper-container" id="news">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -274,6 +264,7 @@
             <hr>
             <p>Copyright © 2018 YOLO MOMENT. All rights reserved.</p>
         </footer>
+        <div v-for="item in test"> {{item}} </div>
     </div>
 
 
