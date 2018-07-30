@@ -22,11 +22,10 @@ section{
     z-index: 99;
     box-sizing: border-box;
 }
-.nav-width{
-    display: flex;
+.navbar .container{
     width: 80vw;
-    margin: 0 auto;
-    box-sizing: border-box;
+    max-width: 1400px;
+    
 }
 .nav-item , .nav-link , .navbar-brand{
     color: #fff;
@@ -242,18 +241,19 @@ section{
 .section6{
     background-color: #c7b299;
 }
-.section6 .col{
+.section6 .message{
     padding: 55px 0;
     text-align: center;
     background-color: #603813;  
     margin: 0 15px;
     
 }
-.section6 .col:nth-child(1){
-    margin-left: 0;
-}
-.section6 .col:nth-child(2){
+
+.section6 .maps{
     margin-right: 0;
+    width: 100%;
+    height: 100%;
+
     overflow: hidden;
 }
 .section6 h4{
@@ -277,9 +277,7 @@ section{
 }
 .section6 iframe{
     width: 100%;
-    height: calc(100% + 115px);
-    position: relative;
-    top: -60px;
+    height: 100%;
 }
 footer{
     background-color: #42210b;
