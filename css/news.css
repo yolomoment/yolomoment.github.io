@@ -47,18 +47,18 @@ section{
 }
 .section2 .container{
     height: 100%;
-     
+    padding: 0;
 }
 .section2 .cover{
     width: 100%;
     height: 100%;
-    box-shadow: 0 0 10px #42210b;
+    
 }
 .section2 .img{
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-position: right center;
+    background-position: center;
 }
 .section2 .swiper-pagination-bullet {
     width: 15px;
