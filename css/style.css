@@ -25,8 +25,9 @@ section{
 .navbar .container{
     width: 80vw;
     max-width: 1400px;
-    
+    display: flex;
 }
+
 .nav-item , .nav-link , .navbar-brand{
     color: #fff;
     font-size: 24px;
@@ -51,22 +52,56 @@ section{
     height: 32px;
     margin-right: 15px;
 }
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
 /* banner */
-.banner{
+.section1{
     height: 100vh;
     padding: 0;
 }
-.swiper-container {
+.section1 .swiper-container {
     width: 100%;
     height: 100%;
   }
-  .swiper-slide {
+.section1 .swiper-slide {
     text-align: center;
     font-size: 18px;
-
+    background-color: #42210b;
   }
-  .swiper-pagination-bullet {
+  .section1 .swiper-slide .img_full{
+      width: 100%;
+      height: 100%;
+      position: relative;
+  }
+  .section1 .swiper-slide .img_full .cover{
+    width: 100%;
+    height: 100%;
+    background-color: #42210b;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.6;
+}
+  .section1 .swiper-slide .img{
+      width: 100%;
+      height: 100%;
+      background-position:  center;
+      position: relative;
+  }
+  .section1 .swiper-slide .img .img_logo{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    
+}
+  .section1 .swiper-pagination-bullet {
     width: 15px;
     height: 15px;
     display: inline-block;
@@ -75,10 +110,10 @@ section{
     background: rgba(0,0,0,0);
     opacity: 1;
 }
-  .swiper-pagination-bullet-active{
+  .section1 .swiper-pagination-bullet-active{
       background-color: #fff;
   }
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+.section1 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 50px 10px;
 } 
 .section2 h2{
@@ -178,6 +213,7 @@ section{
 .section3 , .section5{
     background-image: url('../img/index/restaurant.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     padding: 86px 0;
     padding-bottom: 117px;
@@ -221,12 +257,14 @@ section{
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 30px;
+    color: #42210b;
 } 
 .section4 p{
     text-align: center;
     font-size: 24px;
     margin-bottom: 0;
     letter-spacing: 1px;
+    color: #42210b;
 }
 .section4 div{
     text-align: center;
@@ -258,7 +296,7 @@ section{
 }
 .section6 h4{
     font-size: 24px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #fff;
     border-bottom: solid 1px #fff;
     padding: 0 15px;
@@ -275,37 +313,7 @@ section{
     padding: 0;
     margin: 0;
 }
-.section6 iframe{
+.section6 #map{
     width: 100%;
     height: 100%;
-}
-footer{
-    background-color: #42210b;
-    padding: 60px 0;
-    padding-bottom: 0;
-}
-
-footer img {
-    width: 130px;
-    margin-bottom: 30px;
-    
-}
-
-footer a img{
-    width: 30px;
-    margin: 15px;
-}
-footer hr {
-    color: #fff;
-    height: 2px;
-    background-color: #fff;
-    margin: 60px 0;
-    margin-bottom: 10px;
-}
-footer p{
-    text-align: center;
-    font-size: 14px;
-    color: #fff;
-    margin: 0;
-    padding: 6px 0;
 }
