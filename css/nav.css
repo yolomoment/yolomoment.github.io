@@ -1,3 +1,35 @@
+* {
+    font-family: 微軟正黑體, sans-serif;
+}
+h1{
+    font-size: 36px;
+    margin: 0;
+    letter-spacing: 3px;
+}
+h2{
+    font-size: 30px;
+    margin: 0;
+    letter-spacing: 3px;
+
+}
+h3{
+    font-size: 24px;
+    margin: 0;
+    letter-spacing: 1.2px;
+}
+p{
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 1px;
+    line-height: 30px;
+
+}
+body {
+    margin: 0;
+}
+
+
+
 .navbar{
     position: fixed;
     left: 50%;

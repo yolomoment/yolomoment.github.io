@@ -3,9 +3,21 @@
         padding: 60px 0;
     }
     .navbar{
+        position: fixed;
         left: 0;
     transform: translateX(0%);
         top: 0;
+    }
+    .navbar button{
+        border: none;
+    }
+    button:focus {
+        outline: none;
+    }
+    .navbar-nav.ml-auto{
+        background-color: rgba(66, 33, 11,0.8);
+        height: calc(100vh - 100px);
+        margin-top: 15px;
     }
     .navbar .container{
         -ms-flex-wrap: nowrap;
@@ -17,5 +29,15 @@
     .navbar-brand img{
         height: 18px;
         margin-right: 3px;
+    }
+
+    .section6 .col.col-lg.col-12{
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .section6 #map{
+    
+        height: 300px;
+        
     }
 }
