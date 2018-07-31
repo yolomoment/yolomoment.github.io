@@ -21,8 +21,8 @@ section{
     top: 80px;
     transform: translateX(-50%);
      z-index: 99;
-     max-width: 1400px;
     box-sizing: border-box; 
+    padding: 0 10%;
 }
 
 

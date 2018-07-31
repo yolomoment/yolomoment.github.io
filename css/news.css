@@ -152,6 +152,7 @@ section{
     list-style: none;
     display: flex;
     margin: 0 auto ;
+    padding: 0;
 }
 .section3 .pagination li{
     padding: 0 15px;
@@ -167,7 +168,8 @@ section{
     color: #9e5c1d;
 }
 .section3 .pagination li.active a{
-    border-bottom: 2px solid #42210b;
+    border-bottom: 2px solid #9e5c1d;
+    color: #9e5c1d;
 }
 .section3 .pagination li.active:hover a{
     border-bottom: 2px solid #9e5c1d;
