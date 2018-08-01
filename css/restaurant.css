@@ -65,6 +65,9 @@ section {
     color: #603813;
     line-height: 36px;
 }
+.section3{
+    padding-top: 0;
+}
 .section3 .col-4{
     position: relative;
 }
