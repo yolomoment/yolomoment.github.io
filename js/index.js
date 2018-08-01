@@ -17,7 +17,14 @@ if (wid < 600) {
 
     });
 
-}
+};
+
+$(".navbar-toggler").click(function(){
+    console.log("clicked")
+    $(".navbar").toggleClass("bg");
+});
+
+
 
 
 
