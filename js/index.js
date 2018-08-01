@@ -28,12 +28,10 @@ $(".navbar-toggler").click(function(){
 
 
 
-
-
 function initMap() {
     var YOLOMOMENT = {
-        lat: 24.082799984426536,
-        lng: 120.5404963155293
+        lat: 24.08283423034268,
+        lng: 120.542592635382
     };
     var map = new google.maps.Map(
         document.getElementById('map'), {
