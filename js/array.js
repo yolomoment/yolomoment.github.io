@@ -2,8 +2,8 @@ var news_datas = [{
     "title": "藍調傑士回來了! 父親節蛋糕預購中",
     "category": "最新活動",
     "category_color": "#F7931E",
-    "start_date": "2018.07.26 ",
-    "end_date": "2018.07.28",
+    "start_date": "即日起至",
+    "end_date": "2018.08.06",
     "img_src": "news_01"
 },
 {

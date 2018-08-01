@@ -79,21 +79,21 @@ function initMap() {
                     "featureType": "road",
                     "elementType": "all",
                     "stylers": [{
-                        "lightness": 20
+                        "lightness": 80
                     }]
                 },
                 {
                     "featureType": "road.highway",
                     "elementType": "geometry",
                     "stylers": [{
-                        "color": "#c5c6c6"
+                        "color": "#ffffff"
                     }]
                 },
                 {
                     "featureType": "road.arterial",
                     "elementType": "geometry",
                     "stylers": [{
-                        "color": "#e4d7c6"
+                        "color": "#ffffff"
                     }]
                 },
                 {

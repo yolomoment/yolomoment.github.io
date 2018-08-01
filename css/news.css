@@ -21,6 +21,9 @@ section{
     width: 100%;
     height: 65vh;
 }
+.section1 img{
+    width: 100%;
+}
 .section2 h2{
     padding: 0 10px;
     padding-bottom: 15px;
