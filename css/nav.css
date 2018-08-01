@@ -39,9 +39,9 @@ body {
     z-index: 99;
     box-sizing: border-box;
     width: 100%;
-    padding: 0;
     box-shadow: 0 0 100px #42210b;
-    padding: 30px 12%;
+    padding: 20px 12%;
+    
 
 }
 
@@ -80,6 +80,12 @@ body {
     height: 23px;
     margin-right: 15px;
 }
+.navbar-nav .nav-link{
+    padding: 10px;
+}
+
+
+
 
 footer {
     background-color: #42210b;

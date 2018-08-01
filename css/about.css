@@ -113,7 +113,7 @@ section {
 }
 
 .section4 .img {
-    width: 555px;
+    width: 100%;
     height: 345px;
     background-size: cover;
     background-position: center;
@@ -136,15 +136,19 @@ section {
 
 .section4 .row .img1 {
     background-image: url("../img/about/about_img01.jpg");
-    margin-right: -15px;
 }
 
 .section4 .row .img2 {
     background-image: url("../img/about/about_img02.jpg");
-    margin-left: -15px;
+
 }
 
 .section4 .row .img3 {
     background-image: url("../img/about/about_img03.jpg");
-    margin-right: -15px;
+}
+
+@media (max-width:760px){
+    .section4 h1{
+        font-size: 4em;
+    }
 }
