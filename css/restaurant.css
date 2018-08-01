@@ -68,13 +68,25 @@ section {
 .section3 .col-4{
     position: relative;
 }
+.section3 img{
+    width: 100%;
+}
 .section3 p{
     position: absolute;
-    right: 15px;
+    right: 30px;
     bottom: 15px;
     font-weight: bold;
     font-size: 24px;
     color: #fff;
+}
+.section3 .row{
+    margin-bottom: 30px;
+}
+.section3 .col-6 .row{
+    margin-bottom: 0;
+}
+.section3 .col-6 .row .col-12:nth-child(1){
+    margin-bottom: 30px;
 }
 .section4 {
     background-color: #ead6c1;
@@ -93,7 +105,7 @@ section {
     position: absolute;
     width: 45px;
     height: 45px;
-    background-color: #fff;
+    /* background-color: #fff; */
     top: 5px;
     
 }
