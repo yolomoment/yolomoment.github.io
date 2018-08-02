@@ -120,3 +120,5 @@ function initMap() {
     });
 
 }
+
+var s = skrollr.init();

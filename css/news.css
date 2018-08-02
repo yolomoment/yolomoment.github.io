@@ -186,6 +186,9 @@ section{
         margin-bottom: 10px;
         padding-bottom: 10px;
     }
+    .section2 img {
+        width: calc(100% - 0px);
+    }
     .section2 h3{
         margin-bottom: 15px;
     }

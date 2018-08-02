@@ -39,7 +39,7 @@ body {
     z-index: 99;
     box-sizing: border-box;
     width: 100%;
-    box-shadow: 0 0 100px #42210b;
+    box-shadow: 0 0  30px  rgba(0,0,0,.5);
     padding: 20px 12%;
     
 
@@ -131,7 +131,7 @@ footer p{
     .navbar {
         position: fixed;
         padding: 25px 15px;
-        box-shadow: 0 0 30px #42210b;
+        box-shadow: 0 0 30px rgba(0,0,0,.5);
     }
     .navbar button {
         border: none;
