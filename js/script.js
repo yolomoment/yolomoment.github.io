@@ -34,14 +34,17 @@ var vue = new Vue({
 
 var swiper = new Swiper('#banner', {
     loop: true,
+    
     pagination: {
         el: '.swiper-pagination',
+        clickable: true,
     },
 });
 var swiper = new Swiper('#events', {
     loop: true,
     pagination: {
         el: '.swiper-pagination',
+        clickable: true,
     },
 });
 var swiper = new Swiper('#news', {
@@ -51,6 +54,7 @@ var swiper = new Swiper('#news', {
     loop: true,
     pagination: {
         el: '.swiper-pagination',
+        clickable: true,
     },
     breakpoints: {
 
@@ -69,8 +73,12 @@ var swiper = new Swiper('#news', {
     },
 });
 
-
-
+$(".pagination a").on("click", function (e) {
+    $('html, body').animate({
+        scrollTop: $(".section3").offset().top-80 // 只需修改此處
+    }, 100); // 750是滑動的時間，單位為毫秒
+    e.preventDefault();
+});
 
 
 
