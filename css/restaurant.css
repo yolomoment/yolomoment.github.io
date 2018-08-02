@@ -30,11 +30,15 @@ section {
     width: 100%;
     height: 65vh;
 }
-
+.section2{
+    padding-bottom: 30px;
+}
 .section2 img {
     width: 100%;
 }
-
+.section2 .row{
+    margin-bottom: 30px;
+}
 .section2 h2 {
     font-size: 30px;
     padding: 0 10px;
