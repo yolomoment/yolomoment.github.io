@@ -34,7 +34,10 @@ var vue = new Vue({
 
 var swiper = new Swiper('#banner', {
     loop: true,
-    
+    speed: 1500,
+    autoplay: {
+        delay: 5000,
+      },
     pagination: {
         el: '.swiper-pagination',
         clickable: true,

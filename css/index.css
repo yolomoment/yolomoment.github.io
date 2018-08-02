@@ -212,6 +212,7 @@ section{
     background-image: url('../img/index/restaurant.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: #fff;
     padding: 86px 0;
     padding-bottom: 117px;
