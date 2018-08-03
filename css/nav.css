@@ -84,7 +84,7 @@ body {
     padding: 10px;
 }
 .section1 .img{
-    background-image: url("../img/news/news_banner.jpg");
+    
     background-size: cover;
     background-position: center;
     width: 100%;
