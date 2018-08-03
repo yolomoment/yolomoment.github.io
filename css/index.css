@@ -30,6 +30,7 @@ section{
     color: #fff;
     font-size: 24px;
     box-sizing: border-box;
+    user-select: none;
 }
 .navbar-brand:hover{
     color: #fff;
@@ -208,15 +209,20 @@ section{
 .section2 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0px 10px;
 } 
+.section2 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet:focus {
+    outline: none;
+}
 .section3 , .section5{
     background-image: url('../img/index/restaurant.jpg');
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     color: #fff;
     padding: 86px 0;
     padding-bottom: 117px;
     /* transition: .2s; */
+    
 }
 .section3 h2 , .section5 h2{
     margin-bottom: 60px;
@@ -353,7 +359,7 @@ i.fa-chevron-circle-up{
     border-radius: 100%;
     position: fixed;
     bottom: -100px;
-    right: 300px;
+    right: 100px;
     transition: .5s;
     cursor: pointer;
     z-index: 99;
