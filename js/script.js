@@ -85,7 +85,6 @@ $(".pagination a").on("click", function (e) {
 
 $(window).scroll(function(){
     var scrollTop = $(window).scrollTop();
-    console.log(scrollTop)
     if(scrollTop >600){
         $(".fa-chevron-circle-up").css("bottom","10%");
     }else{

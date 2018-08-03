@@ -196,7 +196,7 @@ section {
     display: inline-block;
     padding: 3px 0;
     padding-left: 18px;
-    padding-right: 108px;
+    padding-right: 110px;
     display: inline-block;
     position: relative;
     background-image: url("../img/bakery/menu_deco.svg");
@@ -326,30 +326,28 @@ section {
         font-size: 24px;
         padding-bottom: 1px;
     }
+    .section5 h4{
+        padding-right: 110px;
+    }
     .section5 .row.center {
         margin-left: 15px;
     }
     .section5 .container .list {
-        margin-bottom: 15px;
-    }
-    
+        margin-bottom: 30px;
+    } 
     .section5 .container .list-align-1-1 {
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
-    
     .section5 .container .list-align-1-2 {
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
-    
     .section5 .container .list-align-2-1 {
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
     .section5 .container b {
         margin-left: 15px;
-        
     }
     .section5 .container p {
-        margin-left: 15px;
-        
+        margin-left: 0px;
     }
 }
