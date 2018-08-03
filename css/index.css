@@ -353,7 +353,7 @@ i.fa-chevron-circle-up{
     border-radius: 100%;
     position: fixed;
     bottom: 100px;
-    right: 100px;
+    right: 300px;
     transition: .5s;
     cursor: pointer;
     z-index: 99;
@@ -362,7 +362,11 @@ i.fa-chevron-circle-up{
 i.fa-chevron-circle-up:hover{
     color: #603813;
 }
-
+@media(max-width:1440px){
+    i.fa-chevron-circle-up{
+      right: 50px;
+    }
+}
 @media (max-width: 760px){
     section{
         padding: 40px 0;
