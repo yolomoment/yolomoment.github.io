@@ -352,7 +352,7 @@ i.fa-chevron-circle-up{
     color: #241203;
     border-radius: 100%;
     position: fixed;
-    bottom: 100px;
+    bottom: -100px;
     right: 300px;
     transition: .5s;
     cursor: pointer;
