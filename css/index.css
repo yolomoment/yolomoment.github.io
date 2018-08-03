@@ -347,6 +347,21 @@ footer p{
     margin: 0;
     padding: 6px 0;
 }
+i.fa-chevron-circle-up{
+    font-size: 60px;
+    color: #241203;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    transition: .5s;
+    cursor: pointer;
+    z-index: 99;
+    
+}
+i.fa-chevron-circle-up:hover{
+    color: #603813;
+}
 
 @media (max-width: 760px){
     section{

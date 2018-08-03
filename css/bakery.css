@@ -156,6 +156,7 @@ section {
     position: relative;
     display: block;
     color: #42210b;
+    ;
 }
 
 .section5 .container b:before {
@@ -170,24 +171,17 @@ section {
     font-size: 24px;
     line-height: 29px;
     color: #fff;
-    background-color: #42210b;
+    background-color: transparent;
     display: inline-block;
     padding: 3px 0;
     padding-left: 22px;
     padding-right: 34px;
     display: inline-block;
     position: relative;
+    background-image: url("../img/bakery/menu_deco.svg");
     left: -15px;
 }
-.section5 h4:before{
-    content: " ";
-    background-image: url('../img/bakery/menu_deco.svg');
-    width: 20.5px;
-    height: 35px;
-    position: absolute;
-    top: 0;
-    left: 100%;
-}
+
 .section5 .container p {
     font-size: 18px;
     line-height: 32 px;
