@@ -273,6 +273,9 @@ section {
     .section3 .col-lg-6 .row .col-12:nth-child(1) {
         margin-bottom: 15px;
     }
+    .section3 .col-lg-6 .row .d-lg-none {
+        margin-bottom: 15px;
+    }
     .section4 {
         padding-bottom: 10px;
     }

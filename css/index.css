@@ -406,6 +406,7 @@ footer p{
     .section3 p,.section5 p{
         font-size: 18px;
         margin-bottom: 15px;
+        line-height: 30px;
     }
     .section4 h3{
         font-size: 20px;

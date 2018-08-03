@@ -214,6 +214,9 @@ section {
     .section1 {
         margin-top: 80px;
     }
+    .section2{
+        padding-bottom: 40px;
+    }
     .section2 h2{
         margin-bottom: 10px;
         padding: 0 20px;
@@ -243,8 +246,12 @@ section {
     .section2 .col-6 .row {
         margin-bottom: 0px;
     }
+    
     .section2 .col-12{
         margin-bottom: 15px;
+    }
+    .section2 .container:nth-child(2) .col-12{
+        margin-bottom: 0px;
     }
     .section2 .col-lg-6 .row .col-12{
         margin-bottom: 0px;
@@ -262,6 +269,7 @@ section {
     }
     .section3 p{
         font-size: 18px;
+        line-height: 30px;
         margin-bottom: 15px;
     }
     .section4 .row {
