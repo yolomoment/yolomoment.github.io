@@ -308,4 +308,7 @@ section {
     .note_coffee {
         margin-top: 15px;
     }
+    .section4 .container .note, .note_coffee{
+        padding-left: 50px;
+    }
 }

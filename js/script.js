@@ -83,4 +83,18 @@ $(".pagination a").on("click", function (e) {
     e.preventDefault();
 });
 
+$(window).scroll(function(){
+    var scrollTop = $(window).scrollTop();
+    if(scrollTop >600){
+        $(".fa-chevron-circle-up").css("bottom","10%");
+    }else{
+        $(".fa-chevron-circle-up").css("bottom","-100px");
+    }
+})
+$(".fa-chevron-circle-up").on("click", function (e) {
+    $('html, body').animate({
+        scrollTop: $(".section1").offset().top-80 // 只需修改此處
+    }, 1000); // 750是滑動的時間，單位為毫秒
+    e.preventDefault();
+});
 

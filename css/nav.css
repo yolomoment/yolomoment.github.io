@@ -118,6 +118,26 @@ footer p{
     padding: 6px 0;
 }
 
+i.fa-chevron-circle-up{
+    font-size: 60px;
+    color: #241203;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 100px;
+    right: 300px;
+    
+    transition: .5s;
+    cursor: pointer;
+    z-index: 99;
+}
+i.fa-chevron-circle-up:hover{
+    color: #603813
+}
+@media(max-width:1440px){
+    i.fa-chevron-circle-up{
+      right: 50px;
+    }
+}
 @media (max-width: 760px) {
     section {
         padding: 40px 0;
@@ -171,5 +191,10 @@ footer p{
     }
     footer p {
         letter-spacing: normal;
+    }
+    i.fa-chevron-circle-up{
+        font-size: 3.5em;   
+        right: 15px;
+        opacity: .7;
     }
 }
