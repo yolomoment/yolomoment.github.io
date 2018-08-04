@@ -415,6 +415,10 @@ i.fa-chevron-circle-up:hover{
     }
     .section1 .swiper-wrapper .img{
         background-position: center -70px;
+        background-size: cover;
+    }
+    .section1 .swiper-wrapper .img:nth-child(2) ,.section1 .swiper-wrapper .img:nth-child(3) {
+        background-position: center;
     }
     .section1 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
         margin: 45px 10px;
