@@ -150,12 +150,11 @@ section{
 }
 .section2 .card:hover .cover{
     opacity: 1;
-
 }
 .section2 .cover .hover{
     position: absolute;
     width: 60px;
-    top: 50%;
+    top: calc(50% - 15px);
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 1;
@@ -163,7 +162,7 @@ section{
 }
 .section2 .cover p{
     position: absolute;
-    top: calc(50% + 60px);
+    top: calc(50% + 45px);
     left: 50%;
     font-size: 16px;
     color: #fff;
@@ -222,10 +221,14 @@ section{
     background-size: cover;
     background-position: center;
     color: #fff;
+    padding: 0;
+    
+    /* transition: .2s; */
+}
+.section3 .bg_cover, .section5 .bg_cover{
     padding: 86px 0;
     padding-bottom: 117px;
-    /* transition: .2s; */
-    
+    background-color: rgba(96, 56, 19,0.6);
 }
 .section3 h2 , .section5 h2{
     margin-bottom: 60px;
