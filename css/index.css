@@ -89,10 +89,10 @@ section{
   .section1 .swiper-slide .img_full .cover{
     width: 100%;
     height: 100%;
-    background-color: #42210b;
+    background-color: #603813;
     position: absolute;
     z-index: 1;
-    opacity: 0.6;
+    opacity: 0.5;
 }
   .section1 .swiper-slide .img{
       width: 100%;
