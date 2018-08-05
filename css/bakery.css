@@ -285,7 +285,10 @@ section {
         font-size: 20px;
         color: #fff;
     }
-    .section3 {
+    .section3{
+        background-attachment: fixed;
+    }
+    .section3 .bg_cover{
         padding: 40px 0;
     }
     .section3 h2 {
