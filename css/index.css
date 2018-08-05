@@ -218,7 +218,13 @@ section{
     background-image: url('../img/index/restaurant.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    -o-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -webkit-background-attachment: fixed;
     background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     background-position: center;
     color: #fff;
     padding: 0;

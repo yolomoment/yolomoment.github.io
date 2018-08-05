@@ -147,3 +147,5 @@ $(window).resize(function(){
 })
 
 
+$( "img" ).lazyload();
+// $(".img").lazyload();

@@ -17,7 +17,9 @@ section{
 
 .section1 .img{
     background-image: url("../img/news/news_banner.jpg");
-    background-position: 100px 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .section2 h2{
     padding: 0 10px;
@@ -76,6 +78,9 @@ section{
   }
 .section2 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0px 10px;
+}
+.section2 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet:focus {
+    outline: none;
 } 
 .section3{ 
     background-color: #EAD6C1;
@@ -181,7 +186,7 @@ section{
         padding: 40px 0;
     }
     .section1 .img{
-        background-position: -153px -10px !important;
+        background-image: url('../img/news/news_banner_phone.jpg');
         
     }
     .section1{

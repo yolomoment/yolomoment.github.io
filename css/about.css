@@ -155,8 +155,7 @@ section {
         padding: 40px 0;
     }
     .section1 .img{
-        background-position: -343px -45px !important;   
-        background-size: 375%;
+        background-image: url('../img/about/about_banner_phone.jpg');
     }
     .section1{
         margin-top: 80px;

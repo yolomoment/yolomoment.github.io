@@ -108,8 +108,14 @@ section {
 .section3 {
     background-image: url("../img/index/bakery.jpg");
     background-attachment: fixed;
+    -o-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -webkit-background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
     background-position: center;
     color: #fff;
     padding: 0;
@@ -287,6 +293,7 @@ section {
     }
     .section3{
         background-attachment: fixed;
+        
     }
     .section3 .bg_cover{
         padding: 40px 0;
