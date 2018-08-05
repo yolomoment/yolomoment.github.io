@@ -294,10 +294,11 @@ section {
     }
     .section3 {
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        /* background-attachment: fixed;
         -o-background-attachment: fixed;
         -moz-background-attachment: fixed;
-        -webkit-background-attachment: fixed;
+        -webkit-background-attachment: fixed; */
+        background-attachment: inherit;
         background-size: cover;
         -o-background-size: cover;
         -moz-background-size: cover;
