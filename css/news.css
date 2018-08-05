@@ -177,6 +177,9 @@ section{
 }
 
 @media (max-width: 760px) {
+    section {
+        padding: 40px 0;
+    }
     .section1 .img{
         background-position: -153px -10px !important;
         

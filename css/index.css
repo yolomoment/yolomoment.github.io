@@ -432,6 +432,7 @@ i.fa-chevron-circle-up:hover{
     }
     .section3 , .section5{
         background-attachment: fixed;
+        background-size: cover;
     }
     .section3 .bg_cover, .section5 .bg_cover{
         padding: 40px 0;
