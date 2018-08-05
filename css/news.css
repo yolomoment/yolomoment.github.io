@@ -179,7 +179,10 @@ section{
 @media (max-width: 760px) {
     .section1 .img{
         background-position: -153px -10px !important;
-        background-size: 100%;
+        
+    }
+    .section1{
+        margin-top: 80px;
     }
     .section2 h2{
         margin-bottom: 10px;

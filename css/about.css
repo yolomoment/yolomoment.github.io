@@ -151,6 +151,13 @@ section {
 }
 
 @media (max-width:760px){
+    .section1 .img{
+        background-position: -343px -45px !important;   
+        background-size: 375%;
+    }
+    .section1{
+        margin-top: 80px;
+    }
     .section2 h2{
         padding-bottom: 10px;
         margin-bottom: 10px;
