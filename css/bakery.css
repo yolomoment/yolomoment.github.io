@@ -120,10 +120,11 @@ section {
     color: #fff;
     padding: 0;
 }
-.section3 .bg_cover{
+
+.section3 .bg_cover {
     padding: 86px 0;
     padding-bottom: 117px;
-    background-color: rgba(96, 56, 19,0.6);
+    background-color: rgba(96, 56, 19, 0.6);
 }
 
 .section3 h2 {
@@ -291,11 +292,19 @@ section {
         font-size: 20px;
         color: #fff;
     }
-    .section3{
+    .section3 {
+        background-repeat: no-repeat;
         background-attachment: fixed;
-        
+        -o-background-attachment: fixed;
+        -moz-background-attachment: fixed;
+        -webkit-background-attachment: fixed;
+        background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-position: center;
     }
-    .section3 .bg_cover{
+    .section3 .bg_cover {
         padding: 40px 0;
     }
     .section3 h2 {
@@ -336,7 +345,7 @@ section {
         font-size: 24px;
         padding-bottom: 1px;
     }
-    .section5 h4{
+    .section5 h4 {
         padding-right: 110px;
     }
     .section5 .row.center {
@@ -344,7 +353,7 @@ section {
     }
     .section5 .container .list {
         margin-bottom: 30px;
-    } 
+    }
     .section5 .container .list-align-1-1 {
         margin-bottom: 30px;
     }
