@@ -112,9 +112,12 @@ section {
     background-size: cover;
     background-position: center;
     color: #fff;
-    padding: 120px 0;
+    padding: 0;
+}
+.section3 .bg_cover{
+    padding: 86px 0;
     padding-bottom: 117px;
-    /* transition: .2s; */
+    background-color: rgba(96, 56, 19,0.6);
 }
 
 .section3 h2 {

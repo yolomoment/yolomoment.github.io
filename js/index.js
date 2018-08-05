@@ -8,11 +8,11 @@ if (wid < 600) {
         if (scrollTop > section1_height) {
 
             $('.navbar').css("background-color", "#42210b");
-            console.log("down");
+
         } else {
 
             $('.navbar').css("background-color", "rgba(0,0,0,0)");
-            console.log("top");
+        
         }
 
     });
@@ -20,7 +20,6 @@ if (wid < 600) {
 };
 
 $(".navbar-toggler").click(function(){
-    console.log("clicked")
     $(".navbar").toggleClass("bg");
 });
 
