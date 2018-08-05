@@ -549,4 +549,7 @@ i.fa-chevron-circle-up:hover {
         margin: 30px 0;
         margin-bottom: 0;
     }
+    i.fa-chevron-circle-up {
+       transition: 0s;
+    }
 }
