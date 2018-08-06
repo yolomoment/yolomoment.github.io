@@ -208,7 +208,7 @@ i.fa-chevron-circle-up:hover{
     }
     i.fa-chevron-circle-up{
         font-size: 3.5em;   
-        right: 15px;
+        right: 10%;
         opacity: .7;
         transition: 0s;
     }
