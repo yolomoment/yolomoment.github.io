@@ -113,6 +113,7 @@ section {
     height: 100%;
     background-position: center;
     position: relative;
+    background-size: cover;
 }
 
 .section1 .swiper-pagination-bullet {
